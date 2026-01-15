@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right
+    #000, #333);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* SECTIONS */
+section {
+    padding: 80px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.about.services.contact {
+    background: white;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.service-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center;
+    font-weight: bold;
+}
